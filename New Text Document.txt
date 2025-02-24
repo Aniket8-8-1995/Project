@@ -1,0 +1,16 @@
+provider "aws"{
+access_key= var.acc
+Sec_key=var.key
+region="ap-south-1"
+}
+
+variable "aws_access_key" "acc"{
+access_key= "sdsdsjljsal"
+
+addition.sh
+#!/bin/bash
+read a
+read b
+c=`expr$a+$b`
+
+./ addition.sh 10 20
